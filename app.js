@@ -7,15 +7,15 @@ $("#plein-vide").click(function(){
 });
 
 $(".cercle").click(function(){
-    $(".cercle").toggleClass("fond");
+    $(this).toggleClass("fond");
 });
 
 $(".carre").click(function(){
-    $(".carre").toggleClass("fond");
+    $(this).toggleClass("fond");
     //suite
 });
 
 $(".losange").click(function(){
-    $(".losange").toggleClass("fond");
+    $(this).toggleClass("fond");
     //suite
 });
