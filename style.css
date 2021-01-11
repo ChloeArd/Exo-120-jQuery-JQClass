@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+}
+
+#container{
+    width: 47%;
+    margin: auto;
+    border: 1px solid coral;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.carre, .cercle, .losange{
+    width: 100px;
+    height: 100px;
+    border: 2px solid black;
+    margin: 20px;
+}
+
+.cercle{
+    border-radius: 50% 50%;
+}
+
+.losange{
+    transform: rotate(225deg);
+}
+
+.fond{
+    background-color: lightseagreen;
+}
+
+
