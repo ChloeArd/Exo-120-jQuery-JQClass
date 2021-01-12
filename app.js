@@ -10,12 +10,32 @@ $(".cercle").click(function(){
     $(this).toggleClass("fond");
 });
 
-$(".carre").click(function(){
+$("#carre1").click(function(){
     $(this).toggleClass("fond");
-    //suite
+    $(".ligne1").toggleClass("fond");
+    $(".colone1").toggleClass("fond");
+});
+
+$("#carre2").click(function(){
+    $(this).toggleClass("fond");
+    $(".ligne2").toggleClass("fond");
+    $(".colone2").toggleClass("fond");
+});
+
+$("#carre3").click(function(){
+    $(this).toggleClass("fond");
+    $(".ligne4").toggleClass("fond");
+    $(".colone4").toggleClass("fond");
+});
+
+$("#carre4").click(function(){
+    $(this).toggleClass("fond");
+    $(".ligne5").toggleClass("fond");
+    $(".colone5").toggleClass("fond");
 });
 
 $(".losange").click(function(){
     $(this).toggleClass("fond");
-    //suite
+    $(".ligne3").toggleClass("fond");
+    $(".colone3").toggleClass("fond");
 });
